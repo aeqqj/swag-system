@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Swag System</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Swag System</h1>
+    <div id="container">
+
+        <div id="form-container">
+            <form id="inventory-form">
+                <input type="text" id="input-item" placeholder="Enter Item Name">
+                <button type="submit">Add Item</button>
+            </form>
+        </div>
+
+        <div id="inventory-container">
+            <h2>Current Swag Inventory</h2>
+            <table>
+                <thead>
+                    <th scope="col">Name</th>
+                    <th scope="col">Coolness</th>
+                    <th scope="col">Action</th>
+                </thead>
+                <tbody id="inventory-list">
+
+                </tbody>
+            </table>
+            <p id="no-items-message" style="display: none;">No items in inventory</p>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
